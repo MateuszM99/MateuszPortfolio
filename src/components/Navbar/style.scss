@@ -1,0 +1,25 @@
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.navbar__header {
+    margin-left: 50px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+    min-width: 500px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    cursor: pointer;
+}

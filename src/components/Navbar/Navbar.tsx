@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import './style.scss'
 
 interface Props {
     
@@ -6,9 +7,9 @@ interface Props {
 
 export default function Navbar({}: Props): ReactElement {
     return (
-        <nav>
-            <h3>Mateusz Młodochowski</h3>
-            <ul>
+        <nav className="navbar">
+            <h2 className="navbar__header">Mateusz Młodochowski</h2>
+            <ul className="navbar__list">
                 <li>Home</li>
                 <li>Projects</li>
                 <li>About</li>
