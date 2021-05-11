@@ -3,9 +3,84 @@ img {
     height: 398px;
 }
 
-.full {
-    font-weight: 100;
+.title {
+    text-align: left;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: left;
+    font-weight: 500;
     letter-spacing: 5px;
-    font-size: 64px;
-    text-transform: uppercase;
+    margin: 0;
+}
+
+.home__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home__main__section {
+    display: flex;
+    background-color: #ECE2C6;
+    /*background-image: url(../../assets/always-grey.png);*/
+    height: 80vh;
+    margin: 50px;
+    box-shadow: 0px 0px 3px 1px rgb(100, 100, 100);
+}
+
+.home__main__about {
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    span {
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: rgb(100, 100, 100);
+    }
+    a {
+        margin-top: 40px;
+        padding: 8px;
+        width: 200px;
+        border-radius: 8px;
+        font-weight: 500;
+        border: solid 1px rgb(100, 100, 100);
+        box-shadow: 0px 0px 1px 1px rgb(100, 100, 100);
+        color: rgb(100, 100, 100);
+        cursor: pointer;
+    }
+}
+
+.home__main__img__wrapper {
+    position: fixed;
+    top: 250px;
+    right: 350px;
+    background-image: url(../../assets/lp.png);
+    min-height: 60vh;
+    min-width: 40vw;
+    background-repeat: no-repeat;
+}
+
+.home__background {
+    position: fixed;
+    bottom: -20%;
+    background-image: url(../../assets/backgroundCity.png);
+    min-height: 50vh;
+    min-width: 35vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }

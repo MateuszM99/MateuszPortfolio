@@ -17,9 +17,13 @@
     list-style: none;
     display: flex;
     margin-left: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-right: 0px;
     min-width: 500px;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 300;
     cursor: pointer;
+    li:hover{
+        font-weight: 500;
+    }
 }

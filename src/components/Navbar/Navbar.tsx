@@ -8,12 +8,12 @@ interface Props {
 export default function Navbar({}: Props): ReactElement {
     return (
         <nav className="navbar">
-            <h2 className="navbar__header">Mateusz Młodochowski</h2>
+            <h2 className="navbar__header">M•M</h2>
             <ul className="navbar__list">
-                <li>Home</li>
+                <li style={{fontWeight : 500}}>Home</li>
                 <li>Projects</li>
                 <li>About</li>
-                <li>Contacts</li>
+                <li>Contact</li>
             </ul>
         </nav>
     )
