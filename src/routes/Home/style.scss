@@ -25,11 +25,11 @@ img {
 
 .home__main__section {
     display: flex;
-    background-color: #ECE2C6;
-    /*background-image: url(../../assets/always-grey.png);*/
+    /*background-image: url(../../assets/black-twill.png);*/
     height: 80vh;
     margin: 50px;
-    box-shadow: 0px 0px 3px 1px rgb(100, 100, 100);
+    font-family: 'Playfair Display', serif;
+    /*box-shadow: 0px 0px 3px 1px rgb(100, 100, 100);*/
 }
 
 .home__main__about {
@@ -46,7 +46,6 @@ img {
     padding-right: 150px;
     span {
         text-align: left;
-        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 300;
         color: rgb(100, 100, 100);
@@ -61,23 +60,49 @@ img {
         box-shadow: 0px 0px 1px 1px rgb(100, 100, 100);
         color: rgb(100, 100, 100);
         cursor: pointer;
+        font-family: 'Segoe UI', sans-serif;
     }
 }
 
 .home__main__img__wrapper {
     position: fixed;
-    top: 250px;
-    right: 350px;
+    top: 350px;
+    right: 150px;
     background-image: url(../../assets/lp.png);
     min-height: 60vh;
     min-width: 40vw;
     background-repeat: no-repeat;
 }
 
+.home__drawer {
+    position: fixed;
+    display: flex;
+    top: 30%;
+    right: -10px;
+    height: 150px;
+    width: 35px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: #eee0d6;
+    box-shadow: 0px 0px 3px 1px #c0b6ae;
+    border-radius: 8px;
+    cursor: pointer;
+
+    a{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Playfair Display', serif;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        color: rgb(100, 100, 100);
+    }
+}
+
 .home__background {
     position: fixed;
-    bottom: -20%;
-    background-image: url(../../assets/backgroundCity.png);
+    left: -5%;
+    bottom: -5%;
+    background-image: url(../../assets/manCurly.png);
     min-height: 50vh;
     min-width: 35vw;
     background-size: contain;

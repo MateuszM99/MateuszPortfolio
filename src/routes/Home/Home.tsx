@@ -25,10 +25,13 @@ export default function Home({}: Props): ReactElement {
                     It was popularised in
                 </span>
                 <a>Contact me</a>
+            </div>   
+            </section>   
+            <div className="home__drawer">
+                <a>Social</a>
             </div>
-            <div className="home__main__img__wrapper">
-            </div>    
-            </section>             
+            <div className="home__background">
+            </div>          
         </div>
     )
 }
