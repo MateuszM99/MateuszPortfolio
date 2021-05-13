@@ -1,6 +1,8 @@
 body {
-  background-color: #F2E4D9;
-  /*background-image: url(./assets/always-grey.png);*/
+  background-image: url(./assets/gradientBg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
